@@ -149,48 +149,46 @@ a{
 
 .secao{
     padding: 30px 0 50px 0;
+
 }
 
 .titulo-secao{
     margin-bottom: 25px;
+   
+
 }
 
 .titulo-secao h2{
     font-size: 2em;
+    color: #111827;
     margin-bottom: 8px;
+
+
 }
 
-.linha-cards-inlineblock{
+.titulo-secao p{
+    color: #6b7280;
+}
+
+/* BLOCK  */
+.bloco-historia{
     background-color: white;
+    padding: 20px;
     border-radius: 20px;
-    padding: 20px;
-    box-shadow: 0 10px 30px black;
+    box-shadow: 0 10px 30px lightgray;
 }
 
-.card-inlineblock{
-    display: inline-block;
-    width: 30%;
-    min-height: 190px;
-    margin-right: 2%;
-    background-color: #eff6ff;
-    color: #6428b3;
+.caixa-block{
+    display: block;
+    background: #f4f6fb;
+    color: #000000;
+    padding: 20px;
     border-radius: 15px;
-    padding: 20px;
-    margin-bottom: 5px
+    margin-bottom: 15px;
+    font-weight: 600;
 }
 
-.card-inlineblock h3{
-    font-size: 1.5em;
-    margin-bottom: 10px;
-
-}
-
-.card-inlineblock p{
-    font-size: 0.7em;
-    line-height: 1.5;
-}
-
-.rodape{
+.rodape{ 
     margin-top: 50px;
     background-color: black;
     color: white;
@@ -205,4 +203,119 @@ a{
 .rodape-grid p {
     font-size: #d1d5db;
     margin-bottom: 10px;
+}
+
+.lista-carreira{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card-carreira{
+    flex: 1 1 260px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px lightgray;
+}
+
+.card-carreira img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+
+}
+
+.card-carreira h3{
+    padding: 20px 20px 10px;
+    font-size: 1.3em;
+    color: #111827;
+}
+
+.card-carreira p{
+    padding: 0px 20px 10px;
+    color: #6b7280;
+}
+
+.table-with-caption {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+}
+
+
+.table-with-caption caption {
+    caption-side: top; 
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.table-with-caption thead th {
+    background-color: #000000;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+}
+
+.table-with-caption td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+}
+
+.letra-branca{
+    color: white;
+}
+
+.container-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
